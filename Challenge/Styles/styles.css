@@ -1,0 +1,41 @@
+body{
+    background-color: palevioletred;
+}
+.imgsize{
+    width: 15%;
+    margin: 0 auto;
+    display: block;
+}
+#EDU:hover {
+    color: black;
+}
+.quote1{
+    width: 25.0em;
+    height: 8.0em;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+#quote2 p{
+    height: 1.2em;
+}
+.quote2{
+    width: 20.0em;
+    font-size: 1.0em;
+    font-weight: bold;
+    display: grid;
+    margin: auto;
+}
+.quote3{
+    width: 10.0em;
+    color: white;
+    text-align:center;
+    justify-content: center;
+    margin: auto;
+}
+.apresentation{
+    margin: 0 auto;
+    text-align:center;
+    justify-content: center;
+    font-weight: bolder;
+}
