@@ -2,7 +2,7 @@ body{
     background-color: palevioletred;
 }
 .imgsize{
-    width: 15%;
+    width: 10%;
     margin: 0 auto;
     display: block;
 }
@@ -10,6 +10,7 @@ body{
     color: black;
 }
 .quote1{
+    font-size: 1.5em;
     width: 25.0em;
     height: 8.0em;
     text-align: center;
@@ -21,7 +22,7 @@ body{
 }
 .quote2{
     width: 20.0em;
-    font-size: 1.0em;
+    font-size: 1.5em;
     font-weight: bold;
     display: grid;
     margin: auto;
