@@ -1,0 +1,24 @@
+#content{
+    max-width: 70%;
+    margin: 0 auto;
+}
+header img{
+    width: 100%;
+    margin: 0%;
+    display:block;
+}
+footer{
+    display: block;
+    margin: 0 auto;
+    background-color: gray;
+}
+footer img{
+    display: inline-block;
+    width: 20%;
+    border-radius: 180px;
+    border: 15px solid rgb(72, 70, 70);
+    margin: 4%;
+}
+body{
+    margin: 0;
+}
