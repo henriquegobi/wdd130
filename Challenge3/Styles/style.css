@@ -1,0 +1,36 @@
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 400px 400px;
+}
+h1{
+    text-align: center;
+    z-index: 1;
+    grid-column: 1/3;
+    grid-row: 1/1;
+    font-size: 5.5em;
+    font-weight:bold;
+}
+img{
+    width: 80%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin: 0 auto;
+}
+.Cherries{
+    grid-column: 2/3;
+    grid-row: 2/2;
+    z-index: 1;
+    text-align: center;
+    margin: 0;
+}
+#TextCherries{
+    color: #a01f1f;
+    font-size: 3.5em;
+    font-weight:bold;
+}
+#backgroudcollor{
+    background-color:#b9b8b9;
+    grid-column: 2/2;
+    grid-row: 1/3;
+}
