@@ -194,6 +194,51 @@ main section img{
     opacity: .6;
     transform: scale(1.1);
 }
+.msg2{
+    text-align: center;
+}
+
+/*Page 2 section*/
+
+.river-icon p{
+    font-size: 1.5em;
+    font-family: sans-serif, "Oswald", Helvetica;
+}
+.home-grid-pg2{
+    margin: auto;
+    display: grid;
+    grid-template-columns:repeat(10, 1fr);
+}
+.home-grid-pg2 img{
+    margin: auto;
+    border: 10px solid #d9c2a3;
+    width: 120%;
+    grid-column: 1/5;
+    grid-row: 3/10;
+}
+.home-grid-pg2 h1{
+    margin: auto;
+    margin-top: 40px;
+    color: #b1adad;
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+.home-grid-pg2 p{
+    color: #b1adad;
+    justify-self: space-around;
+    grid-column: 6/10;
+    grid-row: 3/5;
+}
+#botton-book-now{
+    grid-column: 6/10;
+    grid-row: 6/6;
+}
+#botton-book-now a{
+    font-size: 1.5em;
+}
+
+
+/*media sction*/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
