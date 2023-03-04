@@ -225,7 +225,6 @@ main section img{
 }
 .home-grid-pg2 p{
     color: #b1adad;
-    justify-self: space-around;
     grid-column: 6/10;
     grid-row: 3/5;
 }
