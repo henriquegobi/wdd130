@@ -1,19 +1,26 @@
+:root{
+    --color-darkblue: darkblue;
+    --color-white:#eee;
+    --color-black: #000;
+}
+
+
 nav{
-    background-color: darkblue;
+    background-color: var(--darkblue-color);
     padding: 10px;
 }
 nav a{
-    color: white;
+    color: var(--white-color);
     display: block;
     padding: 20px;
 }
 h1{
-    color: darkblue;
+    color: var(--darkblue-color);
 }
 img{
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--color-black);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -28,7 +35,7 @@ aside{
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2); /* 1️⃣ */
     padding: 1rem;
-    background-color: #eee;
+    background-color: var(--white-color);
     color: #333;
     text-align: center;
 }
@@ -43,6 +50,6 @@ main img{
 p{ padding: 0;}
 footer{
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px solid var(--color-black);
     text-align: center;
 }
