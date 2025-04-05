@@ -5,8 +5,6 @@
     --accent2-color: #918028;
     --text-color: #ffffff;
     --background-color: #264653;
-
-    --hero-font: Boldonse;
 }
 
 body {
@@ -33,6 +31,7 @@ header img {
 header h1 {
     margin: 0;
     font-size: 1.8em;
+    text-align: center;
 }
 
 nav ul {
@@ -69,7 +68,8 @@ nav ul li a {
     background: rgba(0, 0, 0, 0.5);
     padding: 15px;
     border-radius: 10px;
-    width: 60%;
+    width: 100%;
+    font-size: 1.5em;
     font-family: "Boldonse", system-ui;
 }
 
