@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Contact Us | Splash Rafting</title>
-    <meta name="description" content="This page provides contact information">
+    <title>Home | Splash Rafting</title>
+    <meta name="description"
+        content="Welcome to Splash Rafting, your destination for unforgettable whitewater rafting adventures.">
     <meta name="author" content="Henrique Almeida">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,32 +31,36 @@
     </header>
 
     <main>
-        <section class="contact-info">
+        <section class="hero">
+            <img src="images/happyCustomers2.jpg" alt="Happy Customers enjoying rafting">
+            <article>
+                <h2>Welcome to Splash Rafting</h2>
+                <p>We provide unforgettable whitewater rafting experiences. Our mission is to bring adventure,
+                    excitement, and joy to every thrill-seeker. Whether you're looking for a half-day adventure or the
+                    ultimate rapids experience, we have something for everyone!</p>
+            </article>
+        </section>
+
+        <section class="highlights">
+            <h2>Why Choose Us?</h2>
+            <p>Founded in 1998, Splash Rafting has been leading rafting expeditions across some of the most thrilling
+                rivers in the country. With a dedicated team and a passion for adventure, we ensure every trip is safe,
+                fun, and memorable.</p>
+        </section>
+
+        <section class="contact-preview">
             <h2>Contact Us</h2>
             <p>Have questions? Reach out and we’ll be happy to help!</p>
             <address>
                 <p>Avenida Brasil 330<br>Colombo, Paraná</p>
                 <p>Phone: (44) 997788-9988</p>
-                <p>Email: splshrifiting@splashrafting.com</p>
+                <p class="email">Email: splshrifiting@splashrafting.com</p>
             </address>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.9718254089553!2d-49.19992202370703!3d-25.372260730611263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce8a41271f2d5%3A0x1533ad5c8df34f73!2sAv.%20Brasil%2C%20300%20-%20Rio%20Verde%2C%20Colombo%20-%20PR%2C%2083405-430!5e0!3m2!1spt-BR!2sbr!4v1743846878135!5m2!1spt-BR!2sbr"
-                width="600" height="450">
-            </iframe>
+            <a href="contact.html" class="button">Get in Touch</a>
         </section>
 
-        <section>
-            <h2>Meet Our Team</h2>
-            <div>
-                <figure>
-                    <img src="images/equipe_rafting.jpg" alt="Happy employees">
-                    <figcaption>Meet our Team</figcaption>
-                </figure>
-            </div>
-        </section>
-
-        <section class="contact-form">
-            <h2>Send Us a Message</h2>
+        <section class="contact-form form">
+            <h2>Newsletter</h2>
             <form>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -63,19 +68,9 @@
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
 
-                <fieldset>
-                    <legend>Purpose of your message:</legend>
-                    <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
-                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
-                    <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
-                </fieldset>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
                 <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
 
-                <button type="submit">Send Message</button>
+                <button type="submit">subscribe</button>
             </form>
         </section>
     </main>
